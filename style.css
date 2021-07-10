@@ -1,0 +1,261 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	#full-page
+	{
+		height: 100%;
+		width: 100%;
+		background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url(about.jpg);
+		background-position: center;
+		background-size: cover;
+		position: absolute;
+	}
+	#navbar
+	{
+		display: flex;
+		align-items: center;
+		padding: 20px;
+		padding-left: 50px;
+		padding-right: 30px;
+		padding-top: 20px;
+		
+	}
+	nav
+	{
+		flex: 1;
+		text-align: right;
+	}
+	nav ul
+	{
+		display: inline-block;
+		list-style: none;
+	}
+	nav ul li
+	{
+		display: inline-block;
+		margin: 40px;
+	}
+	nav ul li a
+	{
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+		font-family: times new roman;
+	}
+	nav ul li button
+	{
+		font-size: 20px;
+		color: white;
+		border-radius: 20px;
+		background: blue;
+		font-family: times new roman;
+		padding: 4px;
+		outline: none;
+		cursor: pointer;
+	}
+	nav ul li button:hover
+	{
+		color: aqua;
+	}
+	nav ul li a:hover
+	{
+		color: aqua;
+	}
+	a
+	{
+		font-size: 28px;
+		color: palevioletred;
+		text-decoration: none;
+	}
+	#banner
+	{
+		height: 80vh;
+		color: white;
+		font-size: 40px;
+		background-size: cover;
+		background-position: center;
+	}
+	#banner h1
+	{
+		padding-top: 170px;
+		font-size: 50px;
+		letter-spacing: 6px;
+		font-weight: 600;
+		text-shadow: 0 0 30px rgb(0,0,0,0.5);
+	}
+	.search-jobs
+	{
+
+		padding: 30px;
+		margin: -50px 6% 50px;
+		
+		background-image: linear-gradient(to right,#c1dc65,#57c566);
+
+	}
+	.search-jobs .form-control
+	{
+		max-width: 250px;
+		display: inline-flex;
+		margin: 10px 10px;
+		border-radius: 0;
+		box-shadow: none !important;
+		border:none !important;
+		padding: 5px;
+	}
+	.search-jobs .btn-primary
+	{
+		border-radius: 10px;
+		box-shadow: none;
+		display: inline-flex;
+		margin: 5px;
+		padding: 5px;
+		background-color: blue;
+		color: white;
+	}
+	.search-jobs .btn-primary:hover
+	{
+		color: aqua;
+	}
+	#recruiters
+	{
+		padding-top: 50px;
+		padding-bottom: 100px;
+	}
+	#recruiters h2
+	{
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	h2::before
+	{
+		content: '';
+		background-image: linear-gradient(to right,#c1dc65,#57c566);
+		width: 50px;
+		height: 30px;
+		position: absolute;
+		z-index: -10;
+		margin-top: -15px;
+		border-top-left-radius: 70px;
+		border-bottom-right-radius: 90px;
+	}
+	#recruiters img
+	{
+		max-width: 100px;
+		margin: 10px 20px;
+	}
+	#image
+	{
+		width: 14px;
+		height: 14px;
+		margin-right:2px;
+		background:none;
+	}
+	#jobs
+	{
+		background-color: #f8f8fa;
+		padding: 50px 0;
+
+	}
+	.company-details
+	{
+		box-shadow: 0 2px 70px 0 rgb(110,130,208, .18);
+		border-radius: 5px;
+		margin-bottom: 20px;
+		width:90%;
+		margin-left: 40px;
+	}
+	.jobs-update
+	{
+		background:#fff;
+		padding: 10px 20px;
+		border-radius: 5px;
+
+	}
+	.jobs-update .fa
+	{
+		margin-top: 5px;
+		margin-right: 10px;
+		color: #77d1b1;
+	}
+	.jobs-update small
+	{
+		background:#efefef;
+		padding:1px 5px;
+		margin: 0 5px;
+	}
+	.jobs-update p
+	{
+		margin-bottom: 0 !important;
+	}
+	.apply-btn
+	{
+		height:40px;
+		background-image: linear-gradient(to right,#c1dc65,#57c566);
+		padding: 7px;
+		border-bottom-left-radius: 5px; 
+		border-bottom-right-radius: 5px; 
+
+	}
+	.apply-btn .btn-primary
+	{
+		padding: 0 20px;
+		float: right;
+		border-radius: 20px;
+		box-shadow: none;
+		background:transparent;
+		border: 1px solid #fff;
+		color: white;
+
+	}
+	.apply-btn .btn-primary:hover
+	{
+		color: aqua;
+	}
+	h3
+	{
+		background-image: linear-gradient(to right,#c1dc65,#57c566);
+		box-shadow: 0 2px 70px 0 rgb(110,130,208, .18);
+		border-radius: 5px;
+		margin-bottom: 20px;
+		width:90%;
+		margin-left: 40px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

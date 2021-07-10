@@ -1,0 +1,80 @@
+	html,body
+	{
+		background-image: linear-gradient(to right,#c1dc65,#57c566);
+		display: flex;
+		justify-content: center;
+		font-family: tahoma;
+		font-size: 15px;
+		color: green;
+	}
+	form
+	{
+		border:5px solid #f1f1f1;
+		box-shadow: 0 0 20px 0 #1c87c9;
+	}
+	.input
+	{
+		width: 100%;
+		padding: 16px 8px;
+		margin: 8px 0;
+		display: inline-block;
+		border:1px solid #ccc;
+		box-sizing: border-box;
+		 border-radius: 15px;
+		box-shadow: 0 0 20px 0 #1c87c9;
+	}
+	.icon
+	{
+		position: center;
+		width: 110px;
+		height: 110px;
+		font-size: 110px;
+		display: flex;
+		color: #4286f4;
+		margin-left: 38%;
+	}
+	button
+	{
+		background-color: #4286f4;
+		color: white;
+		padding: 12px 0;
+		margin: 40px;
+		border:none;
+		cursor: grab;
+		width: 48%;
+	}
+	h1
+	{
+		text-align: center;
+		font-size: 18px;
+	}
+	button:hover
+	{
+		opacity: 0.8;
+	}
+	.formcontainer
+	{
+		text-align: center;
+		margin: 24px 50px 12px;
+	}
+	.container
+	{
+		padding: 16px ;
+	}
+	span .psw
+	{
+		max-width: 300px;
+		float: right;
+		padding-top: 0;
+		padding-right: 15px;
+		display: block;
+		float: none;
+	}
+	a
+	{
+		color: green;
+		text-decoration:none;
+	}
+
+
+
